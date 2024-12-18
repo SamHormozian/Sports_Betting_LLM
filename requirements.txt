@@ -1,0 +1,30 @@
+# Core Python Libraries
+numpy                 # Numerical computations
+pandas                # Data manipulation and feature engineering
+scikit-learn          # Machine learning algorithms for training and testing
+matplotlib            # Data visualization
+seaborn               # Statistical data visualization
+
+# Web Scraping and API Integration
+requests              # Fetch data from APIs and web pages
+beautifulsoup4        # HTML parsing for web scraping
+lxml                  # Faster parsing of HTML/XML documents
+selenium              # Browser automation for complex scraping tasks
+urllib3               # HTTP client for advanced requests handling
+
+# Data Preprocessing and Cleaning
+openpyxl              # Reading/writing Excel files
+python-dateutil       # Date parsing and manipulation
+tqdm                  # Progress bars for loops and data processing
+
+# Custom Neural Network (Building From Scratch)
+numba                 # Fast numerical computations using JIT compilation
+sympy                 # Symbolic mathematics for mathematical modeling
+
+# Data Analysis and Visualization
+plotly                # Interactive plots for analysis
+statsmodels           # Statistical modeling and hypothesis testing
+
+# Testing and Debugging
+pytest                # Unit testing for Python
+ipython               # Enhanced interactive Python shell
