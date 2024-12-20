@@ -11,6 +11,7 @@ REQUIREMENTS_FILE = os.path.join(PROJECT_ROOT, "requirements.txt")
 DATA_GATHERING_SCRIPT = os.path.join(SCRIPTS_DIR, "data_gathering.py")
 CLEANER_SCRIPT = os.path.join(SRC_DIR, "cleaner.py")
 FEATURE_ENGINEER_SCRIPT = os.path.join(SRC_DIR, "feature_engineering.py")
+DATA_SPLITTING_SCRIPT = os.path.join(SRC_DIR, "data_splitting.py")
 
 def install_dependencies():
     """
@@ -63,5 +64,8 @@ if __name__ == "__main__":
 
     # Step 3: Feature Engineering
     run_script(FEATURE_ENGINEER_SCRIPT, "Feature Engineering Pipeline")
+
+    # Step 4: Data Splitting
+    run_script(DATA_SPLITTING_SCRIPT, "Data Splitting Pipeline")
 
     print("\n All tasks completed successfully!")
